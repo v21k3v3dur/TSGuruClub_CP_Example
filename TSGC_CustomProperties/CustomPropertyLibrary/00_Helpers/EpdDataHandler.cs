@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -12,9 +13,10 @@ namespace GC_CustomPropertyLibrary._00_Helpers
 {
     public static class EpdDataHandler
     {
-        private static string folderPath = AppDomain.CurrentDomain.BaseDirectory;
+        private static string assemblyFullPath = Assembly.GetExecutingAssembly().Location;
+        private static string assemblyFolderPath=Path.GetDirectoryName(assemblyFullPath);
         private static string filename = @"CU_EPD_Data.csv";
-        private static string fullPath = Path.Combine(folderPath,"01_InputData", filename);
+        private static string fullPath = Path.Combine(assemblyFolderPath,"01_InputData", filename);
         private static List<EpdDataModel> _data = ReadAllRecords(fullPath);
 
         public static string GetEpdNumber(this string elementType)

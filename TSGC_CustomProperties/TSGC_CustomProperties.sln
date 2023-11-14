@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GC_CustomPropertyLibrary", "CustomPropertyLibrary\GC_CustomPropertyLibrary.csproj", "{8BB347DA-C685-40D7-845F-BB883CF61566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GC_CustomPropertyTests", "GC_CustomPropertyTests\GC_CustomPropertyTests.csproj", "{3C5E7B9A-568B-4672-8E08-7B909744A7F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB347DA-C685-40D7-845F-BB883CF61566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB347DA-C685-40D7-845F-BB883CF61566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB347DA-C685-40D7-845F-BB883CF61566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB347DA-C685-40D7-845F-BB883CF61566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5E7B9A-568B-4672-8E08-7B909744A7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5E7B9A-568B-4672-8E08-7B909744A7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5E7B9A-568B-4672-8E08-7B909744A7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5E7B9A-568B-4672-8E08-7B909744A7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {943B36B5-B887-4322-8D67-3A2F1C36C909}
+	EndGlobalSection
+EndGlobal

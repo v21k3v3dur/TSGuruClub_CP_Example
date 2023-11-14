@@ -1,0 +1,49 @@
+﻿ProductCode;EpdNumber;DeclaredUnit;GwpA1-3;CalculationFiledName;EpdLink
+//HollowCoreSlabs;;;;;
+SHC;NEPD-3377-2001-EN;t;166;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3377-2001_Pre-stressed-Hollow-Core-Slabs.pdf
+//;;;;;
+//Sandwich walls;;;;;
+WS;NEPD-3319-1955-EN;t;206;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3319-1955_Precast-insulated-Sandwich-Walls.pdf
+WT;NEPD-3319-1955-EN;t;206;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3319-1955_Precast-insulated-Sandwich-Walls.pdf
+//;;;;;
+//Partition and cladding walls;;;;;
+WP;NEPD-3378-2001-EN;t;171;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3378-2001_Partition-and-cladding-walls.pdf
+WC;NEPD-3378-2001-EN;t;171;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3378-2001_Partition-and-cladding-walls.pdf
+//;;;;;
+//Prestressed elements;;;;;
+CR-PS;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+BR-PS;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+BLT-PS;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+BLL-PS;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+BI;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+BSI;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+SFP;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+SMS-PS;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+STT;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+SSTT;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+SU-PS;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+SBC-PT;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+SBC-PS;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+STS-PS;NEPD-3379-2001-EN;t;245;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3379-2001_Prestressed-elements.pdf
+//;;;;;
+//Reinforced elements;;;;;
+F;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+BR-RF;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+BR;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+BLT-RF;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+BLL-RF;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+BL;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+CR-RF;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+CC;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+C;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+WES;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+SMS-RF;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+SMS-LA;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+SMS;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+SU-RF;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+SU;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+SBC-RF;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+SBC;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+STS-RF;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+STS;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf
+TRO;NEPD-3380-2001-EN;t;197;WEIGHT;https://betoonelement.ee/wp-content/uploads/2022/04/NEPD-3380-2001_Reinforced-structural-elements.pdf

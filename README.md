@@ -9,6 +9,5 @@ Concepts demonstrated in the examples:
 * Get input data from external text file to C# object.
 * Get input data from TS model: Mainpart or Assembly (Cast-Unit) level properties/UDAs
 * (Use other CP values in next CP)
-* Debugging CPs using Reload plugins method
-* Debugging CPs using ExcplicitTesting method
+* Debugging CPs using ExcplicitTesting method (can't use Reload plugins method because CP are not loaded if XS_PLUGIN_DEVELOPER_MODE=TRUE)
 * Using CP values in Organizer, reports, drawing templates, model labels, Custom Inqury.

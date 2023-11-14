@@ -14,7 +14,7 @@ namespace GC_CustomPropertyLibrary._00_Helpers
     {
         private static string folderPath = AppDomain.CurrentDomain.BaseDirectory;
         private static string filename = @"CU_EPD_Data.csv";
-        private static string fullPath = Path.Combine(folderPath, filename);
+        private static string fullPath = Path.Combine(folderPath,"01_InputData", filename);
         private static List<EpdDataModel> _data = ReadAllRecords(fullPath);
 
         public static string GetEpdNumber(this string elementType)

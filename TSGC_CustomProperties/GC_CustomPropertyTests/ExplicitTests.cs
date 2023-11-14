@@ -1,6 +1,7 @@
 ﻿using GC_CustomPropertyLibrary._02_GeneralProperties;
 using GC_CustomPropertyLibrary._03_EPDProperties;
 using NUnit.Framework;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Tekla.Structures.Model;
 using TSMUI=Tekla.Structures.Model.UI;
+using static GC_CustomPropertyTests.StaticHelpers;
 
 namespace GC_CustomPropertyTests
 {
@@ -38,9 +40,14 @@ namespace GC_CustomPropertyTests
         {
             var cp = new ElementTypeCustomProperty();
             string stringResult= cp.GetStringProperty(objectID);
-            int intReslut=cp.GetIntegerProperty(objectID);
+            int intResult=cp.GetIntegerProperty(objectID);
             double doubleReslut=cp.GetDoubleProperty(objectID);
 
+            LogCPtoTestConsole(
+                cp.GetType(),
+                stringResult,
+                intResult,
+                doubleReslut);
         }
 
         [Test]
@@ -48,9 +55,14 @@ namespace GC_CustomPropertyTests
         {
             var cp = new EpdGwpConstCustomProperty();
             string stringResult= cp.GetStringProperty(objectID);
-            int intReslut=cp.GetIntegerProperty(objectID);
+            int intResult=cp.GetIntegerProperty(objectID);
             double doubleReslut=cp.GetDoubleProperty(objectID);
 
+            LogCPtoTestConsole(
+                cp.GetType(),
+                stringResult,
+                intResult,
+                doubleReslut);
         }
 
 
@@ -59,9 +71,14 @@ namespace GC_CustomPropertyTests
         {
             var cp = new EpdLinkCustomProperty();
             string stringResult= cp.GetStringProperty(objectID);
-            int intReslut=cp.GetIntegerProperty(objectID);
+            int intResult=cp.GetIntegerProperty(objectID);
             double doubleReslut=cp.GetDoubleProperty(objectID);
 
+            LogCPtoTestConsole(
+                cp.GetType(),
+                stringResult,
+                intResult,
+                doubleReslut);
         }
 
         [Test]
@@ -69,9 +86,14 @@ namespace GC_CustomPropertyTests
         {
             var cp = new EpdNumberCustomProperty();
             string stringResult= cp.GetStringProperty(objectID);
-            int intReslut=cp.GetIntegerProperty(objectID);
+            int intResult=cp.GetIntegerProperty(objectID);
             double doubleReslut=cp.GetDoubleProperty(objectID);
 
+            LogCPtoTestConsole(
+                cp.GetType(),
+                stringResult,
+                intResult,
+                doubleReslut);
         }
 
         [Test]
@@ -79,9 +101,14 @@ namespace GC_CustomPropertyTests
         {
             var cp = new EpdResultCustomProperty();
             string stringResult= cp.GetStringProperty(objectID);
-            int intReslut=cp.GetIntegerProperty(objectID);
+            int intResult=cp.GetIntegerProperty(objectID);
             double doubleReslut=cp.GetDoubleProperty(objectID);
 
+            LogCPtoTestConsole(
+                cp.GetType(),
+                stringResult,
+                intResult,
+                doubleReslut);
         }
 
         [Test]
@@ -89,11 +116,15 @@ namespace GC_CustomPropertyTests
         {
             var cp = new EpdUnitCustomProperty();
             string stringResult= cp.GetStringProperty(objectID);
-            int intReslut=cp.GetIntegerProperty(objectID);
+            int intResult=cp.GetIntegerProperty(objectID);
             double doubleReslut=cp.GetDoubleProperty(objectID);
 
+            LogCPtoTestConsole(
+                cp.GetType(),
+                stringResult,
+                intResult,
+                doubleReslut);
         }
-
 
     }
 }

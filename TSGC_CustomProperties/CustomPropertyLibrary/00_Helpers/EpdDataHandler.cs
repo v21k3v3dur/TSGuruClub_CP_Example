@@ -7,17 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using static GC_CustomPropertyLibrary._00_Helpers.EpdDataAccess;
 
 namespace GC_CustomPropertyLibrary._00_Helpers
 {
     public static class EpdDataHandler
     {
-        private static string assemblyFullPath = Assembly.GetExecutingAssembly().Location;
-        private static string assemblyFolderPath=Path.GetDirectoryName(assemblyFullPath);
-        private static string filename = @"CU_EPD_Data.csv";
-        private static string fullPath = Path.Combine(assemblyFolderPath,"01_InputData", filename);
-        private static List<EpdDataModel> _data = ReadAllRecords(fullPath);
+        private static List<EpdDataModel> _data = EpdDataAccess.GetData();
 
         public static string GetEpdNumber(this string elementType)
         {
@@ -56,13 +51,14 @@ namespace GC_CustomPropertyLibrary._00_Helpers
 
         private static EpdDataModel FilterByElementType(
             this List<EpdDataModel> list,
-            string typeString,
-            string typePattern = @".*")
+            string typeString
+            )
         {
             EpdDataModel output = new EpdDataModel();
             var result= _data.
                 Where(x => x.ProductCode!= null &&
-                Regex.IsMatch(typeString,@"^"+x.ProductCode+typePattern)).Distinct().ToList();
+                //regex pattern explanation: "^"-starts with,".*" any number of following characters
+                Regex.IsMatch(typeString,@"^"+x.ProductCode+@".*")).Distinct().ToList();
 
             output = result.Count > 0 ? result[0] : output;
 

@@ -1,10 +1,5 @@
 ﻿using GC_CustomPropertyLibrary._00_Helpers;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.Composition;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tekla.Structures.CustomPropertyPlugin;
 using Tekla.Structures.Model;
 
@@ -25,7 +20,15 @@ namespace GC_CustomPropertyLibrary._02_GeneralProperties
             var CastUnit = assemblableObject.GetAssembly(true);
             var MainPart=CastUnit.GetMainPart();
 
-            output = CastUnit.ElementTypeFromUda("PRODUCT_CODE").value;
+            string udaName = "PRODUCT_CODE";
+            string cuUdaValue = "";
+            string mainPartUdaValue = "";
+
+            CastUnit.GetUserProperty(udaName,ref cuUdaValue);
+            MainPart.GetUserProperty(udaName,ref mainPartUdaValue); 
+
+            output= cuUdaValue!=""?cuUdaValue:mainPartUdaValue;
+
             if (output=="")
             {
                 output=CastUnit.AssemblyNumber.Prefix;

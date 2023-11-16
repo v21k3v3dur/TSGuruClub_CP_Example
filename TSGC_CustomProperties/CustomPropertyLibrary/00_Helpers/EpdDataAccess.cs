@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +11,17 @@ namespace GC_CustomPropertyLibrary._00_Helpers
 {
     public static class EpdDataAccess
     {
+        private static string assemblyFullPath = Assembly.GetExecutingAssembly().Location;
+        private static string assemblyFolderPath=Path.GetDirectoryName(assemblyFullPath);
+        private static string filename = @"CU_EPD_Data.csv";
+        private static string fullPath = Path.Combine(assemblyFolderPath,"01_InputData", filename);
+
+
+        public static List<EpdDataModel> GetData()
+        {
+            return ReadAllRecords(fullPath, ';');
+        }
+
         public static List<EpdDataModel> ReadAllRecords(string textFile, char separator=';')
         {
             if (File.Exists(textFile)==false)

@@ -1,11 +1,6 @@
 ﻿using GC_CustomPropertyLibrary._00_Helpers;
 using GC_CustomPropertyLibrary._02_GeneralProperties;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.Composition;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tekla.Structures.CustomPropertyPlugin;
 
 namespace GC_CustomPropertyLibrary._03_EPDProperties
@@ -30,7 +25,15 @@ namespace GC_CustomPropertyLibrary._03_EPDProperties
             if (elementType != "")
             {
                 string result = EpdDataHandler.GetEpdLink(elementType);
-                output=result!=""?result:output;//use default value if no result
+                output = result != "" ? result : output;//use default value if no result
+
+                if (output.Length <= 89)
+                {
+                    return output;
+                }
+                output = output.Substring(0, 86) + "...";
+
+                return output;
             }
             else
             {

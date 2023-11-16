@@ -1,13 +1,7 @@
 ﻿using GC_CustomPropertyLibrary._00_Helpers;
 using GC_CustomPropertyLibrary._02_GeneralProperties;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.Composition;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tekla.Structures.CustomPropertyPlugin;
-using static GC_CustomPropertyLibrary._00_Helpers.EpdDataHandler;
 
 namespace GC_CustomPropertyLibrary._03_EPDProperties
 {

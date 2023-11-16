@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Tekla.Structures.Model;
 using Tekla.Structures;
-using static GC_CustomPropertyLibrary._00_Helpers.StringHelpers;
 
 namespace GC_CustomPropertyLibrary._00_Helpers
 {

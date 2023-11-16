@@ -45,7 +45,6 @@
     <Compile Include="00_Helpers\EpdDataAccess.cs" />
     <Compile Include="00_Helpers\EpdDataHandler.cs" />
     <Compile Include="00_Helpers\StaticHelpers.cs" />
-    <Compile Include="00_Helpers\StringHelpers.cs" />
     <Compile Include="02_GeneralProperties\ElementTypeCustomProperty.cs" />
     <Compile Include="03_EPDProperties\EpdGwpConstCustomProperty.cs" />
     <Compile Include="03_EPDProperties\EpdLinkCustomProperty.cs" />

@@ -23,7 +23,9 @@ namespace GC_CustomPropertyLibrary._00_Helpers
 
             if (assemblableObject is Assembly)
             {
-                output= assemblableObject as Assembly;
+                Assembly currentAssembly= assemblableObject as Assembly;
+                Assembly nextLevelAssembly=assemblableObject.GetAssembly();
+                output = nextLevelAssembly == null ? currentAssembly : nextLevelAssembly;
             }
             else
             {

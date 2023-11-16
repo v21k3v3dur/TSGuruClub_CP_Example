@@ -17,19 +17,20 @@ namespace GC_CustomPropertyLibrary._00_Helpers
             return output;
         }
 
-        public static Assembly GetAssembly(this ModelObject assemblableObject, bool getMainAssembly = true)
+        public static Assembly GetAssembly(this ModelObject modelObject, bool getMainAssembly = true)
         {
             Assembly output = null;
 
-            if (assemblableObject is Assembly)
+            if (modelObject is Assembly)
             {
-                Assembly currentAssembly= assemblableObject as Assembly;
-                Assembly nextLevelAssembly=assemblableObject.GetAssembly();
+                Assembly currentAssembly= modelObject as Assembly;
+                Assembly nextLevelAssembly=currentAssembly.GetAssembly();
                 output = nextLevelAssembly == null ? currentAssembly : nextLevelAssembly;
             }
             else
             {
-                output=assemblableObject.GetAssembly();
+                IAssemblable assemblable= modelObject as IAssemblable;
+                output=assemblable.GetAssembly();
             }
 
             bool isMainAsembly = output.GetAssembly() == null ? true : false;

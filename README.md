@@ -22,7 +22,7 @@ Concepts demonstrated in the examples:
   * GC_CustomPropertyLibrary.dll
   * \01_InputData\ folder with content
 
-### Using the templates
+### Using Tekla templates
 
-* Organizer => settings->import template
-* CustomInqury => open model folder \attributes\ -> copy *.it -> reopen model
+* Organizer => open Organizer settings->import template
+* CustomInqury => copy *.it to .\attributes\ -> reopen model
